@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Sunnyside agency landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="header__container">
+      <figure class="header__figure">
+        <img src="./images/logo.svg" alt="logo empresa" class="header__logo">
+      </figure>
+
+      <nav class="nav" aria-label="Menú principal">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#">About</a></li>
+          <li class="nav__item"><a href="#">Services</a></li>
+          <li class="nav__item"><a href="#">Projects</a></li>
+          <button class="nav__button">Contact</button>
+        </ul>
+        <button class="nav__hamburguesa">
+          <img src="./images/icon-hamburger.svg" alt="Abrir menú" class=".nav__hamburguesa-icono">
+        </button>
+      </nav>
+    </div>
+    <div class="hero__principal">
+      <h1 class="hero__title">We are creatives</h1>
+      <a href="#punto__row"><img src="images/icon-arrow-down.svg" alt="icono flecha" class="hero__arrow"></a>
+    </div>
+  </header>
+  <main class="main">
+    <section class="seccion__main1" id="punto__row">  
+      <section class="seccion seccion1">
+        <picture class="seccion1__picture seccion__picture">
+          <!-- Imagen para pantallas grandes (escritorio) -->
+          <source srcset="images/desktop/image-transform.jpg" media="(min-width: 1280px)">
+          <!-- Imagen para pantallas pequeñas -->
+          <img src="images/mobile/image-transform.jpg" alt="huevo sobre fondo amarillo">
+        </picture>
+
+        <article class="seccion1__text seccion__text">
+          <h2 class="seccion1__title seccion__title">Transform your brand</h2>
+          <p class="seccion1__paragrapht seccion__paragrapht">
+            We are a full-service creative agency specializing in helping brands grow fast. 
+            Engage your clients through compelling visuals that do most of the marketing for you.
+          </p>
+          <a href="#" class="seccion1_a seccion_a">Learn more</a>
+        </article>
+      </section>
+
+      <section class="seccion seccion2">
+        <picture class="seccion1__picture seccion__picture">
+          <source srcset="images/desktop/image-stand-out.jpg" media="(min-width: 1280px)">
+          <img src="images/mobile/image-stand-out.jpg" alt="huevo sobre fondo amarillo">
+        </picture>
+
+        <article class="seccion2__text seccion__text">
+          <h2 class="seccion1__title seccion__title">Stand out to the right audience</h2>
+          <p class="seccion1__paragrapht seccion__paragrapht">
+            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+          </p>
+          <a href="#" class="seccion2_a seccion_a">Learn more</a>
+        </article>
+      </section>
+    </section>
+
+    <section class="seccion__main2">
+      <article class="seccion__text section__design">
+        <h2 class="design__title">Graphic design</h2>
+        <p class="design__paragraph">
+          Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+        </p>
+      </article>
+
+      <article class="seccion__text section__photography">
+        <h2 class="photography__title">Photography</h2>
+        <p class="photography__paragraph">
+          Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        </p>
+      </article>
+    </section>
+
+    <section class="seccion__main3">
+      <h2 class="main3__subtitle">Client testimonials</h2>
+      <div class="main3__testimonios">
+        <article class="main3__container">
+          <img src="images/image-emily.jpg" alt="Foto de Emily" class="main3__img">
+          <p class="main3__paragraph">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+          <div class="main3_nombres">
+            <h3 class="main3__title3">Emily R.</h3>
+            <h5 class="main3__title5">Marketing Director</h5>
+          </div>
+        </article>
+
+        <article class="main3__container">
+          <img src="images/image-thomas.jpg" alt="Foto de Thomas" class="main3__img">
+          <p class="main3__paragraph">
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <div class="main3_nombres">
+            <h3 class="main3__title3">Thomas S.</h3>
+            <h5 class="main3__title5">Chief Operating Officer</h5>
+          </div>
+        </article>
+
+        <article class="main3__container">
+          <img src="images/image-jennie.jpg" alt="Foto de Jennie" class="main3__img">
+          <p class="main3__paragraph"> 
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+          <div class="main3_nombres">
+            <h3 class="main3__title3">Jennie F.</h3>
+            <h5 class="main3__title5">Business Owner</h5>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="seccion__main4">
+      <picture class="main4__picture">
+        <source srcset="images/desktop/image-gallery-milkbottles.jpg" media="(min-width: 1280px)">
+        <img src="images\mobile\image-gallery-milkbottles.jpg" alt="botellas de leche" class="main4__imagen">
+      </picture>
+
+      <picture class="main4__picture">
+        <source srcset="images/desktop/image-gallery-orange.jpg" media="(min-width: 1280px)">
+        <img src="images/mobile/image-gallery-orange.jpg" alt="Naranja en un plato" class="main4__imagen">
+      </picture>
+
+      <picture class="main4__picture">
+        <source srcset="images/desktop/image-gallery-cone.jpg" media="(min-width: 1280px)">
+        <img src="images/mobile/image-gallery-cone.jpg" alt="Cono" class="main4__imagen">
+      </picture>
+
+      <picture class="main4__picture">
+        <source srcset="images\desktop\image-gallery-sugarcubes.jpg" media="(min-width: 1280px)">
+        <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="Galeria de cubos" class="main4__imagen">
+      </picture>
+    </section>
+  </main>
+
+  <footer class="seccion__main5">
+    <img src="images/logo__morado.svg" alt="logo empresa" class="main5__logo">
+    <nav aria-label="Menu Footer" class="main5__menu">
+      <ul class="navf__list">
+        <li class="navf__item"><a href="#">About</a></li>
+        <li class="navf__item"><a href="#">Services</a></li>
+        <li class="navf__item"><a href="#">Projects</a></li>          
+      </ul>
+    </nav>
+    <div class="main5__logos">
+      <img src="images/icon-facebook.svg" alt="Logo Facebook" class="rs__logos">
+      <img src="images/icon-instagram.svg" alt="Logo Instagram" class="rs__logos">
+      <img src="images/icon-twitter.svg" alt="Logo Twitter" class="rs__logos">
+      <img src="images/icon-pinterest.svg" alt="Logo Pinterest" class="rs__logos">
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="http://www.linkedin.com/in/camilo-téllez">Camilo Andrés Téllez Benítez</a>.
+    </div>
+  </footer>
+
+   <script src="app.js"></script>
+
+</body>
+</html>
